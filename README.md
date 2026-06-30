@@ -1,7 +1,7 @@
 
 # Dog Food Single Page Application (SPA) Design
 
-This project was built with latest version of next.js, tailwind css and typescript using a component based approach.
+This project was built with next.js, tailwind css and typescript using a component based approach.
 
 ## To run on your local machine, ensure you have node js and npm install and follow the instructions below
 
