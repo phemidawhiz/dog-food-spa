@@ -19,7 +19,7 @@ export const HeroSection = () => {
     if (typeof window !== 'undefined' && (window as any).PaystackPop) {
       const handler = (window as any).PaystackPop.setup({
         key: paystackConfig.PUBLIC_KEY, 
-        email: 'testcustomer@example.com', // this can be made dynamic later
+        email: "pk_test_e9667b1510cb348a4b69a28db9e99d4b92d2c245",//'testcustomer@example.com', // this can be made dynamic later
         amount: paystackConfig.DEFAULT_AMOUNT, // This is in kobo. 500000 = 5,000 NGN
         currency: paystackConfig.DEFAULT_CURRENCY,
         ref: 'TEST_' + Math.floor((Math.random() * 1000000000) + 1), // Unique transaction ref
