@@ -71,7 +71,6 @@ Everything was built specifically to pass Google Chrome DevTools' Lighthouse Aud
 *   **`next/image`**:
     *   I used the `fill` prop combined with `sizes="(max-width: 768px) 100vw, 50vw"`. This tells the browser exactly how much space the image will take up at different screen sizes. 
     *   I added `priority` to the hero image. This tells Next.js to preload that specific image immediately, boosting the **Largest Contentful Paint (LCP)** score.
-    *   *Note on config*: I included the `next.config.ts` to allow `images.unsplash.com` as a remote pattern, enabling you to use real high-res images for testing without storing them locally.
 *   **`next/script`**: I used `strategy="lazyOnload"` for the Paystack script. This tells the browser to load the Paystack JS file only *after* the main page has finished rendering. It prevents the payment library from blocking the loading of critical images and text, preserving a 100 Performance score.
 
 ### 7. Paystack Payment Popup Integration
